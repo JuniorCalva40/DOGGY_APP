@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+:root{
+    --gray:#373739;
+    --yellow:#5ccb5f;
+    --color3:#000000;
+    --color4:#dc143c;
+  }
+
+*{
+    font-family:'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    text-decoration: none;
+
+}
+html{
+    font-size: 62.5%;
+}
+.perrito{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 600px;
+}
+
+.perrito1{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 900px;
+}
+
+.title{
+    text-align: center;
+    padding: 1rem;
+    font-size: 40px;
+     background-color: var(--gray); 
+    text-transform: capitalize;
+    color: white; 
+}
+
+
+body{
+    background-color: var(--gray);
+}
+.Doggymain h1{
+    align-items: center;
+    color: #2f2c2b;
+    font-size: 25px;
+    text-align: center;
+    background-color: var(--gray);
+    color: white;
+}
+
+.doggyramdon{
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--gray);
+    height: 300px;
+   
+    
+}
+.Doggymain  .doggyramdon button{
+    padding: auto;
+    background-color: var(--yellow);
+    color: white;
+    border-radius: .5rem;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 80px;
+
+}
+
+.Doggymain .seemore1{
+    background-color:var(--color3);
+    margin-left: 700px;
+    border-radius: .5rem;
+    color: white;
+    height: 40px;
+    width: 80px;
+}
+
+
+
+/*Seccion favorita*/
+.DoggyFav {
+    background-color: var(--gray);
+    display: flex row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.DoggyFav h1{
+    color: #2f2c2b;
+    font-size: 25px;
+    text-align: center;
+    background-color: var(--gray); 
+    color: white; 
+    padding: 20px;
+}
+/*/Aun no disponible para dispositivos moviles*/
